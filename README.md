@@ -7,13 +7,13 @@ __NOTES:__ Tested in ubuntu 13.10 with python_2.7</br>
 The official Python repository for this package can be found at: https://pypi.python.org/pypi/gosttpy/0.1.0
 
 ###Dependencies
-For LINUX - Please install the sox and simplejson with the following lines in your terminal:
+For __LINUX__ - Please install the sox and simplejson with the following lines in your terminal:
 	
 	sudo  apt-get install sox
 
 	sudo  pip install simplejson
 	
-For OSX you need to install Homebrew first and then the dependencies (PIP already comes with python so you might want to test in your terminal to verify your version) otherwise if you haven't installed python yet please do with "sudo brew install python" as shown in the following lines:
+For __OSX__ you need to install Homebrew first and then the dependencies (PIP already comes with python so you might want to test in your terminal to verify your version) otherwise if you haven't installed python yet please do with "sudo brew install python" as shown in the following lines:
 
 	sudo ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
