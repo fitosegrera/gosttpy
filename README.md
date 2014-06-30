@@ -6,6 +6,23 @@ __Description:__ Python module for speech recognition using Google's speech reco
 __NOTES:__ Tested in ubuntu 13.10 with python_2.7</br>  
 The official Python repository for this package can be found at: https://pypi.python.org/pypi/gosttpy/0.1.0
 
+###Dependencies
+For LINUX - Please install the sox and simplejson with the following lines in your terminal:
+	
+	sudo  apt-get install sox
+
+	sudo  pip install simplejson
+	
+For OSX you need to install Homebrew first and then the dependencies (PIP already comes with python so you might want to test in your terminal to verify your version) otherwise if you haven't installed python yet please do with "sudo brew install python" as shown in the following lines:
+
+	sudo ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+	sudo brew install sox
+
+	sudo brew install python
+
+	sudo pip install simplejson
+
 ###Installation:
 __If you have PIP installed in your computer just run__
 
