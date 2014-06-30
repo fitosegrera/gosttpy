@@ -17,11 +17,11 @@ For __OSX__ you need to install Homebrew first and then the dependencies (PIP al
 
 	sudo ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-	sudo brew install sox
+	brew install sox
 
-	sudo brew install python
+	brew install python
 
-	sudo pip install simplejson
+	pip install simplejson
 
 ###Installation:
 __If you have PIP installed in your computer just run__
